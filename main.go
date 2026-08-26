@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Println("FizzBuzz Program - Merged with Feature 1")
+    fmt.Println("FizzBuzz Program - Final Merged Version")
+    fmt.Println("=== FizzBuzz Game ===")
     for i := 1; i <= 100; i++ {
         switch {
         case i%15 == 0:
